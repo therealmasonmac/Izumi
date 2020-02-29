@@ -2,7 +2,6 @@
 
 #include <string>
 #include <algorithm>
-#include <list>
 #include <set>
 
 namespace Izumi
@@ -48,7 +47,7 @@ namespace Izumi
 		struct Properties
 		{
 			std::string Path, Scheme, Host, Port, Query, Fragment;
-			std::list<std::string> UserData;
+			std::set<std::string> UserData;
 
 			bool HasScheme;
 		};
