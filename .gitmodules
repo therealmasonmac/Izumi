@@ -1,0 +1,3 @@
+[submodule "Izumi/gtest"]
+	path = Izumi/gtest
+	url = git@github.com:google/googletest.git
